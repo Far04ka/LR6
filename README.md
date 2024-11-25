@@ -17,3 +17,25 @@
 Создан файл 123.txt и несколько раз были внесены и зафиксированы изменения. Далее, выполнен откат последнего коммита [(рис. 11)](/images/11.png)
 
 Создана ветка для отчета [(рис. 12)](/images/12.png).
+
+### Лог команд
+- git clone https://github.com/Far04ka/LR6
+- git pull
+- git log master
+- git log branch1
+- git log master -1
+- git log branch1 -1
+- git merge branch1 master
+- git add .
+- git commit -m "Разрешен конфликт"
+- git branch -d branch1
+- git push origin --delete branch1
+#### Для каждого фиксирования изменения файла 123.txt:
+- git add .
+- git commit -m "comment"
+<br>
+<br>
+- git revert "хэш коммита"
+- git branch otchet
+
+#### Получена отформатированная историй операций [(рис. 13)](/images/13.png).
