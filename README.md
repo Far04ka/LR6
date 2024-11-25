@@ -30,11 +30,11 @@
 - git commit -m "Разрешен конфликт"
 - git branch -d branch1
 - git push origin --delete branch1
-#### Для каждого фиксирования изменения файла 123.txt:
+---
+Для каждого фиксирования изменения файла 123.txt:
 - git add .
 - git commit -m "comment"
-<br>
-<br>
+------
 - git revert "хэш коммита"
 - git branch otchet
 
